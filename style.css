@@ -1,0 +1,180 @@
+.header-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.header-nav__titulo {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  height: 110px;
+}
+
+.barra_desplazamiento {
+  display: inline-block;
+  position: fixed;
+  margin-top: 38px;
+  margin-left: -15px;
+}
+
+.lista_desplazamiento {
+  font-size: 2px;
+  list-style: none;
+}
+
+.elemento_lista {
+  margin-top: 7px;
+}
+
+.li_especial {
+  color: rgb(243, 97, 97);
+}
+
+.header-nav__titulo__lista {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 2px;
+  margin-top: -15px;
+}
+
+.header-nav__menu {
+  width: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -45px;
+}
+
+.header-nav__bl1 {
+  border-bottom: 2px solid black;
+  width: 150px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: start;
+}
+
+.header-nav__bl2 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: end;
+}
+
+.header-nav__menu--lupita {
+  height: 15px;
+  width: 15px;
+}
+
+.header-nav__menu--icono-usuario {
+  height: 20px;
+  width: 20px;
+}
+
+.header-nav__menu--icono-carrito {
+  height: 20px;
+  width: 25px;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.galeria {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: -100px;
+  margin-left: 50px;
+  justify-content: start;
+}
+
+.galeria__carta {
+  height: 300px;
+  width: 33%;
+  font-size: 13px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  font-weight: bold;
+}
+
+.galeria__foto {
+  height: 180px;
+  width: 80%;
+}
+
+.barra-espaciadora {
+  background-color: rgb(233, 232, 232);
+  width: 100%;
+  height: 1px;
+}
+
+.barra-espaciadora-2 {
+  background-color: black;
+  width: 85%;
+  height: 1px;
+  margin-left: 50px;
+}
+
+.texto__final {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.texto__final .texto__final--2 {
+  margin-top: -10px;
+}
+.texto__final .texto__final--1 {
+  font-weight: bold;
+}
+.texto__final .texto__final--3 {
+  font-size: 5px;
+}
+
+.barra-espaciadora-3 {
+  background-color: rgb(233, 232, 232);
+  width: 100%;
+  height: 1px;
+  margin-top: 20px;
+}
+
+.encabezado__footer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.encabezado__footer .encabezado__footer--especial {
+  font-weight: bold;
+  font-size: 1px;
+}
+.encabezado__footer p {
+  margin-top: 2px;
+  font-size: 1px;
+}
+
+.footer__final {
+  margin-top: 60px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: start;
+}
+.footer__final p {
+  font-size: 1px;
+}
+.footer__final .footer-titulo-tarjeta {
+  font-weight: bold;
+  font-size: 1px;
+  margin-bottom: 10px;
+}
+
+.logo-insta {
+  height: 9px;
+  width: 9px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,84 @@
+.header-nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.header-nav__titulo{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 110px;
+}
+
+.barra_desplazamiento{
+    display: inline-block;
+    position: fixed;
+    margin-top: 38px;
+    margin-left: -15px;
+}
+
+.lista_desplazamiento{
+    font-size: 2px;
+    list-style: none;
+}
+
+.elemento_lista{
+margin-top: 7px;
+}
+
+
+.li_especial{
+    color: rgb(243, 97, 97);
+}
+
+.header-nav__titulo__lista{
+    text-decoration: none;
+    list-style: none;
+   display: flex;
+   flex-flow: row wrap;
+   font-size: 2px;
+   margin-top: -15px;
+}
+
+
+.header-nav__menu{
+width: 200px;
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: space-between;
+margin-top: -45px;
+}
+
+.header-nav__bl1{
+border-bottom: 2px solid black;
+width: 150px;
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: start;
+}
+
+.header-nav__bl2{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: end;
+    }
+
+.header-nav__menu--lupita{
+    height: 15px;
+    width: 15px;
+}
+
+.header-nav__menu--icono-usuario{
+    height: 20px;
+    width: 20px;
+}
+
+.header-nav__menu--icono-carrito{
+    height: 20px;
+    width: 25px;
+}
+

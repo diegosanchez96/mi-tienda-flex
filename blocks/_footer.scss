@@ -1,0 +1,45 @@
+.encabezado__footer{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+    .encabezado__footer--especial{
+        font-weight: bold;
+        font-size: 1px;
+    }
+
+    p{
+        margin-top: 2px;
+        font-size: 1px;
+    }
+}
+
+.footer__final{
+    margin-top: 60px;
+    // border: 1px black solid;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: start;
+
+    p{
+        font-size: 1px;
+    }
+
+    .footer-titulo-tarjeta{
+        font-weight: bold;
+        font-size: 1px;
+        margin-bottom: 10px;
+    }
+}
+
+.logo-insta{
+    height: 9px;
+    width: 9px;
+}
+
+
+
